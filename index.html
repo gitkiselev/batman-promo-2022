@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -39,27 +40,77 @@
                 <div class="main__rating-title">2022, боевик, триллер</div>
                 <div class="main__rating-wrap">
                     <div class="main__rating-stars">
-                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset=""></div>
-                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset=""></div>
-                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset=""></div>
-                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset=""></div>
-                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset=""></div>
-                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset=""></div>
-                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset=""></div>
+                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset="">
+                        </div>
+                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset="">
+                        </div>
+                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset="">
+                        </div>
+                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset="">
+                        </div>
+                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset="">
+                        </div>
+                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset="">
+                        </div>
+                        <div class="main__rating-star star-active"><img src="img/star-active.svg" alt="" srcset="">
+                        </div>
                         <div class="main__rating-star"><img src="img/star-no-active.svg" alt="" srcset=""></div>
                         <div class="main__rating-star"><img src="img/star-no-active.svg" alt="" srcset=""></div>
                         <div class="main__rating-star"><img src="img/star-no-active.svg" alt="" srcset=""></div>
                     </div>
                     <div class="main__rating-number">7/10</div>
                 </div>
-                
+
             </div>
             <h1 class="main__header">Бэтмен</h1>
-            <p class="main__description">После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен
-                становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на
-                представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира.
-                Теперь под прицелом оказывается сам Бэтмен.</p>
+            <div class="main__description-wrap">
+                <p class="main__description">После двух лет поисков правосудия на улицах Готэма для своих сограждан
+                    Бэтмен
+                    становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений
+                    на
+                    представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного
+                    мира.
+                    Теперь под прицелом оказывается сам Бэтмен.</p>
+                    <div class="main__button-play">
+                        <div class="main__button-dark">
+                            <img src="img/play.svg" alt="">
+                        </div>
+                    </div>
+            </div>
             <a href="#" class="main__button">Купить билеты</a>
+            <div class="main-slider__wrap">
+                <div class="main-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-1.jpg" alt="">
+                            <span>Трейлер #1</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #2</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #3</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #4</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #5</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider__arrow">
+                    <img src="img/arrow.svg" alt="">
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -74,6 +125,8 @@
             </ul>
         </div>
     </footer>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
